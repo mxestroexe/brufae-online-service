@@ -5,5 +5,5 @@ if desperdicio_energia() = True:
 else:
     if desperdicio_energia() = False:
         print("não há desperdício")
-elif desperdicio_energia() = null:
-    print(não sei oq deu)
+    elif desperdicio_energia() = null:
+        print(não sei oq deu)
