@@ -1,9 +1,13 @@
-desperdicio_energia = 0
+def desperdicio_energia():
+    # Exemplo de função que determina se há desperdício de energia
+    # Retorna True, False ou None
+    return None
 
-if desperdicio_energia() = True:
+resultado = desperdicio_energia()
+
+if resultado is True:
     print("está tendo desperdicio_energia")
+elif resultado is False:
+    print("não há desperdício")
 else:
-    if desperdicio_energia() = False:
-        print("não há desperdício")
-    elif desperdicio_energia() = null:
-        print(não sei oq deu)
+    print("não sei oq deu")
