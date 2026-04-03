@@ -1,41 +1,71 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style/style.css">
-        <style>
-            #header-icon {
-                color: #333;
-                font-size: 36px;
-                margin-bottom: 20px;
-                text-align: center;
-                font-family: Arial, sans-serif;
-            }
-
-            h2 {
-                color: #333;
-                font-size: 24px;
-                margin-bottom: 10px;
-                text-align: center;
-                font-family: Arial, sans-serif;
-            }
-            p {
-                color: #333;
-                font-size: 14px;
-                font-family: Arial, sans-serif;
-                text-align: center;
-                margin-bottom: 12px;
-            }
-        </style>
-    </head>
-    <body>
-        <hr><br><header>
-            <h1 id="header-icon">BRUFAE</h1>
-        </header><br><hr><br>
-        <main>
-            <h2>Seja bem vindo a BRUFAE</h2>
-            <p>Seja bem vindo ao site da BRUFAE, aqui você pode analisar os nossos dados e/ou ajudar a gente com mais dados do seu dia a dia.</p>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUFAE</title>
+    <link rel="stylesheet" href="../../../pages/css/global.css">
+    <link rel="stylesheet" href="../../../pages/css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">BRUFAE</a>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="https://github.com/mxestroexe/brufae-online-service" class="nav-link">GitHub</a>
+                    <a href="#times" class="nav-link">Equipes</a>
+                    <a href="#noticias" class="nav-link">Artigos</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>BRUFAE</h1>
+            <p class="hero-subtitle">Brazillian Union For Awareness of Energy Use </p>
+            <p class="hero-description">Organizando, promovendo e desenvolvendo uma conscientização na capital sul-mato-grossense.</p>
+            
+            <div class="hero-buttons">
+                <a href="#sobre" class="btn btn-primario">Conheça a BRUFAE</a>
+                <a href="#campeonatos" class="btn btn-secundario">Ver Campeonatos</a>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre a BRUFAE</h2>
+            <p>A <strong>Brazilian Union for Awareness of Energy Use (BRUFAE)</strong> é uma iniciativa independente que busca conscientizar a população de Campo Grande sobre o uso responsável de energia elétrica.</p>
+            
+            <p>Nosso trabalho consiste em mapear áreas com maior desperdício energético na cidade, utilizando dados públicos e relatos da comunidade, e apresentar essas informações de forma clara e acessível.</p>
+            
+            <p>Acreditamos que conscientizar é mais eficaz do que controlar. Por isso, não temos o objetivo de impor regras, mas sim ajudar as pessoas que desejam reduzir suas contas de energia e adotar hábitos mais sustentáveis.</p>
+            
+            <p>Para empresas, disponibilizamos o BRUFAE for Enterprise, oferecendo recomendações voluntárias para redução de custos e maior eficiência energética.</p>
+        </div>
+    </section>
+    <section id="mapa" class="section">
+        <div class="container">
+            <h2 class="section-title">Mapa de Desperdício Energético em Campo Grande</h2>
+            <p class="section-description">Áreas em vermelho indicam maior concentração de desperdício de energia elétrica com base em dados públicos e relatos. Quanto mais intenso o vermelho, maior o desperdício.</p>
+            
+            <div id="map" style="height: 550px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p><strong>BRUFAE</strong> — Brazillian Union For Awareness of Energy Use</p>
+            <p>© 2026 BRUFAE. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
