@@ -1,31 +1,55 @@
-# Bem-vindo(a) ao BRUFAE
+# BRUFAE - Brazilian Union for Awareness of Energy Use
 
-Nós do BRUFAE temos o trabalho de conscientizar as pessoas sobre o desperdício de energia elétrica.
+A **BRUFAE** é uma iniciativa independente dedicada à conscientização sobre o uso responsável de energia elétrica em Campo Grande, Mato Grosso do Sul.
 
-### O que faz a BRUFAE?
+Nosso objetivo é informar e empoderar a população para reduzir o desperdício energético, contribuir com a sustentabilidade e auxiliar na redução das contas de energia, sempre de forma voluntária e sem imposições.
 
-Você pode acessar o nosso site e acompanhar o mapa da sua cidade e encontrar as áreas que mais tem desperdício de energia elétrica.
+## O que fazemos?
 
-### De onde a BRUFAE retira os dados?
+Através do nosso site, é possível visualizar um **mapa interativo** que identifica as áreas da cidade com maior índice de desperdício de energia elétrica. O mapa é atualizado com base em dados públicos, pesquisas independentes e relatos da própria comunidade.
 
-Nós retiramos os dados de API's públicas, pesquisas independentes e de relatos pelos formulários públicos, onde você seleciona valores, tempo, dias, horários e etc.
+## Nossa abordagem
 
-### Qual o foco da BRUFAE?
+- **Conscientização sem controle**: Acreditamos que a educação é mais eficaz que a fiscalização.
+- **Transparência**: Todos os dados utilizados são de fontes públicas ou fornecidos voluntariamente pela população.
+- **Independência**: Não possuímos vínculos diretos com órgãos governamentais, priorizando a liberdade individual no uso de energia.
 
-Conscientizar de forma consciente. Sem forçar ninguém a nada.
+## De onde vêm os dados?
 
-### Qual o propósito da BRUFAE?
+Os dados são obtidos por meio de:
+- APIs públicas
+- Pesquisas independentes
+- Relatos enviados pela população através de formulários
 
-Ajudar a pessoas que realmente querem buscar baratear as suas contas de energia.
+## BRUFAE for Enterprise
 
-### Como a BRUFAE funciona para empresas?
+Oferecemos um canal dedicado às empresas que buscam:
+- Reduzir custos com energia elétrica
+- Melhorar sua eficiência energética
+- Transitar para fontes de energia renovável
 
-Temos nosso setor específico da BRUFAE for Enterprise, que ao invés de policiar e militar em cima de empresas, deixar o contato liberado para qualquer empresa que queira recomendações para baratear as contas ou até mesmo para se tornar renovável.
+O contato é voluntário e consultivo, sem qualquer caráter de fiscalização.
 
-### Posso participar da BRUFAE?
+## Como participar
 
-Sim, em partes, você pode ajudar respondendo nossos formulários, respondendo pesquisas e entrevistas ou até mesmo ingressando nas nossas equipes de conscientização.
+Existem várias formas de contribuir com a BRUFAE:
+- Respondendo nossos formulários e pesquisas
+- Enviando relatos sobre consumo de energia na sua região
+- Participando de entrevistas e ações de conscientização
+- Divulgando a iniciativa
 
-### Como ingressar na BRUFAE?
+## Sobre o projeto
 
-Se dirija para uma das nossas sedes e veja lá, sla caraio, da seus jumps para entrar
+Este é um projeto educacional e independente, desenvolvido com o objetivo de promover a consciência energética na capital sul-mato-grossense. O site é uma aplicação web simples, construída com HTML, CSS e JavaScript.
+
+---
+
+### Contato
+
+- **GitHub**: [github.com/mxestroexe/brufae-online-service](https://github.com/mxestroexe/brufae-online-service)
+
+---
+
+**BRUFAE** — Brazilian Union for Awareness of Energy Use  
+Campo Grande, Mato Grosso do Sul  
+© 2026 BRUFAE. Todos os direitos reservados.
